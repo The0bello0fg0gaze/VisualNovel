@@ -12,7 +12,7 @@ int main(){
     InitWindow(screenWidth, screenHeight, "Main File");
     int screen = 1;
     
-    movement Player(Vector2 {600,600});
+    movement Player(Vector2 {500,520});
     UpdateScreen( Player, screen);
     
     while (!WindowShouldClose())    // Detect window close button or ESC key

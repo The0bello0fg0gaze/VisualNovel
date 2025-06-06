@@ -9,9 +9,12 @@ void Screen_1();
 
 std::vector<Rectangle> Map1 = {
     Rectangle{500,200,900,700}, //0
-    Rectangle{550,220,100,50}, //1
-    Rectangle{650,720,100,50}, //2
-    Rectangle{350,820,100,50} //3
+    Rectangle{500,570,150,50}, //1
+    Rectangle{720,520,150,50}, //2
+    Rectangle{920,520,60,50}, //3
+    Rectangle{1030,520,60,50}, //4
+    Rectangle{1140,520,60,50}, //5
+    Rectangle{1250,470,150,50} //6
     };
 
 void UpdateScreen(movement &Player, int screen){
